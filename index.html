@@ -1,0 +1,621 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Mood Store </title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="./images/1.fav.png">
+  
+  <!-- Themefisher Icon font -->
+  <link rel="stylesheet" href="plugins/themefisher-font/style.css">
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  
+  <!-- Animate css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body id="body">
+<!-- Start Top Header Bar -->
+				<!-- Site Logo -->
+				<div class="logo text-center">
+          <img width="140px" height="135px" src="./images/logo.png" alt="logo Mood Store" ><img>
+			</div>
+			<div class="col-md-4 col-xs-12 col-sm-4">
+				<!-- Cart -->
+				<ul class="top-menu text-right list-inline">
+					<li class="dropdown cart-nav dropdown-slide">
+						<a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"><i
+								class="tf-ion-android-cart"></i>Carrinho</a>
+						<div class="dropdown-menu cart-dropdown">
+							<!-- Cart Item -->
+							<div class="media">
+								<a class="pull-left" href="#!">
+									<img class="media-object" src="images/cart-1.jpeg" alt="image" />
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading"><a href="#!">Ladies Bag</a></h4>
+									<div class="cart-price">
+										<span>1 x</span>
+										<span>1250.00</span>
+									</div>
+									<h5><strong>$1200</strong></h5>
+								</div>
+								<a href="#!" class="remove"><i class="tf-ion-close"></i></a>	
+							</div> 
+
+							<!-- / Cart Item -->
+							<div class="media">
+								<a class="pull-left" href="#!">
+									<img class="media-object" src="images/cart-2.jpeg" alt="image" />
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading"><a href="#!">Ladies Bag</a></h4>
+									<div class="cart-price">
+										<span>1 x</span>
+										<span>1250.00</span>
+									</div>
+									<h5><strong>$1200</strong></h5>
+								</div>
+								<a href="#!" class="remove"><i class="tf-ion-close"></i></a>
+							</div><!-- / Cart Item -->
+
+							<div class="cart-summary">
+								<span>Total</span>
+								<span class="total-price">$1799.00</span>
+							</div>
+							<ul class="text-center cart-buttons">
+								<li><a href="cart.html" class="btn btn-small">Ver Carrinho</a></li>
+								<li><a href="checkout.html" class="btn btn-small btn-solid-border">Checkout</a></li>
+							</ul>
+						</div>
+
+					</li><!-- / Cart -->
+					
+					<!-- Search -->
+<li class="dropdown search dropdown-slide">
+  <a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+		<i class="tf-ion-ios-search-strong"></i>Pesquisar</a>
+  <ul class="dropdown-menu search-dropdown">
+    <li>
+      <form action="post"><input type="pesquisa" class="form-control" placeholder="Pesquisar..."></form>
+    </li>
+  </ul>
+</li>
+</div>
+        <!-- / Search -->
+
+				</ul><!-- / .nav .navbar-nav .navbar-right -->
+			</div>
+		</div>
+	</div>
+</section><!-- End Top Header Bar -->
+
+
+<!-- Main Menu Section -->
+<section class="menu">
+	<nav class="navbar navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<h2 class="menu-title">Menu</h2>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+					aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+			</div><!-- / .navbar-header -->
+
+			<!-- Navbar Links -->
+			<div id="navbar" class="navbar-collapse collapse text-center">
+				<ul class="nav navbar-nav">
+
+					<!-- Home -->
+					<li class="dropdown ">
+						<a href="index.html">Home</a>
+					</li><!-- / Home -->
+
+
+					<!-- Elements -->
+					<li class="dropdown dropdown-slide">
+						<a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
+							role="button" aria-haspopup="true" aria-expanded="false">Shop <span
+								class="tf-ion-ios-arrow-down"></span></a>
+						<div class="dropdown-menu">
+							<div class="row">
+
+								<!-- Basic -->
+								<div class="col-lg-6 col-md-6 mb-sm-3">
+									<ul>
+										<li class="dropdown-header">Pages</li>
+										<li role="separator" class="divider"></li>
+										<li><a href="#nossos-produtos" class= "products section bg-gray">Nossos Produtos</a></li>
+										<li><a href="checkout.html">Checkout</a></li>
+										<li><a href="cart.html">Carrinho</a></li>
+									</ul>
+								</div>
+
+								<!-- Layout -->
+								<div class="col-lg-6 col-md-6 mb-sm-3">
+									<ul>
+										<li class="dropdown-header">Layout</li>
+										<li role="separator" class="divider"></li>
+										<li><a href="product-single.html">Produtos detalhes</a></li>
+										<li><a href="shop-sidebar.html">Shop With Sidebar</a></li>
+									</ul>
+								</div>
+
+							</div><!-- / .row -->
+						</div><!-- / .dropdown-menu -->
+					</li><!-- / Elements -->
+
+
+					<!-- Pages -->
+					<li class="dropdown full-width dropdown-slide">
+						<a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
+							role="button" aria-haspopup="true" aria-expanded="false">Pages <span
+								class="tf-ion-ios-arrow-down"></span></a>
+						<div class="dropdown-menu">
+							<div class="row">
+
+								<!-- Introduction -->
+								<div class="col-sm-3 col-xs-12">
+									<ul>
+										<li class="dropdown-header">Nossa Loja</li>
+										<li role="separator" class="divider"></li>
+										<li><a href="#contact" class="contact-short-info">Contato</a></li>
+										<li><a href="#about" class="quem somos">Sobre nós</a></li>
+										<li><a href="">Novidades</a></li>
+										<li><a href="">FAQ</a></li>
+									</ul>
+								</div>
+
+								<!-- Utility -->
+								<div class="col-sm-3 col-xs-12">
+									<ul>
+										<li class="dropdown-header">Cliente</li>
+										<li role="separator" class="divider"></li>
+										<li><a href="login.html">Fazer Login</a></li>
+										<li><a href="signin.html">Crie sua conta</a></li>
+										<li><a href="forget-password.html">Esqueci minha senha</a></li>
+									</ul>
+								</div>
+
+								<!-- Mega Menu -->
+								<div class="col-sm-3 col-xs-12">
+									<a href="shop.html">
+										<img class="img-responsive" src="./images/menus.jpg" alt="menu image" />
+									</a>
+								</div>
+							</div><!-- / .row -->
+						</div><!-- / .dropdown-menu -->
+					</li><!-- / Pages -->
+
+					<!-- Blog -->
+					<li class="dropdown dropdown-slide">
+						<a href="#!" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350"
+							role="button" aria-haspopup="true" aria-expanded="false">Blog <span
+								class="tf-ion-ios-arrow-down"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="blog-left-sidebar.html">Nosso Blog</a></li>
+						</ul>
+					</li><!-- / Blog -->
+
+				</ul><!-- / .nav .navbar-nav -->
+
+			</div>
+			<!--/.navbar-collapse -->
+		</div><!-- / .container -->
+	</nav>
+</section>
+
+<div class="hero-slider">
+  <div class="slider-item th-fullpage hero-area" style="background-image: url(images/header..png);">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 text-left">
+          <p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">PRODUTOS</p>
+          <h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">TENDÊNCIAS DA TEMPORADA</h1>
+          <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn" href="shop.html">Compre</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slider-item th-fullpage hero-area" style="background-image: url(images/slider-3.png);">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 text-right">
+          <p data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">PRODUTOS</p>
+          <h1 data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".5">EXLUSIVOS DA WEB</h1>
+          <a data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".8" class="btn" href="shop.html">Compre</a>
+        </div>	
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="product-category section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="title text-center">
+					<h2>Categorias</h2>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="category-box">
+					<a href="#!">
+						<img src="images/category-1.png" alt="" />
+						<div class="content">
+						  <h3>Camisetas</h3>
+						</div>
+					</a>	
+				</div>
+				<div class="category-box">
+					<a href="#!">
+						<img src="images/category2.png2.png" alt="" />
+						<div class="content">
+							<h3>Tendências</h3>
+						</div>
+					</a>	
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="category-box category-box-2">
+					<a href="#!">
+						<img src="images/category3.png" alt="" />
+						<div class="content">
+							<h3>Sale</h3>
+						</div>
+					</a>	
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="products section bg-gray" id="nossos-produtos">
+	<div class="container">
+		<div class="row">
+			<div class="title text-center">
+				<h2>Nossos produtos</h2>
+			</div>
+		</div>
+		<div class="row">
+			
+			<div class="col-md-4">
+				<div class="product-item">
+					<div class="product-thumb">
+						<span class="bage">Sale</span>
+						<img class="img-responsive" src="images/product-1.jpg" alt="product-img" />
+						<div class="preview-meta">
+							<ul>
+								<li>
+									<span  data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+								</li>
+								<li>
+			                        <a href="#!" ><i class="tf-ion-ios-heart"></i></a>
+								</li>
+								<li>
+									<a href="#!"><i class="tf-ion-android-cart"></i></a>
+								</li>
+							</ul>
+                      	</div>
+					</div>
+					<div class="product-content">
+						<h4><a href="product-single.html">Vestido Floral</a></h4>
+						<p class="price">R$200</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="product-item">
+					<div class="product-thumb">
+						<img class="img-responsive" src="images/product-2.jpg" alt="product-img" />
+						<div class="preview-meta">
+							<ul>
+								<li>
+									<span  data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+								</li>
+								<li>
+			                        <a href="#" ><i class="tf-ion-ios-heart"></i></a>
+								</li>
+								<li>
+									<a href="#!"><i class="tf-ion-android-cart"></i></a>
+								</li>
+							</ul>
+                      	</div>
+					</div>
+					<div class="product-content">
+						<h4><a href="product-single.html">Blusa Tule</a></h4>
+						<p class="price">R$99,90</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="product-item">
+					<div class="product-thumb">
+						<img class="img-responsive" src="images/product-3.jpg" alt="product-img" />
+						<div class="preview-meta">
+							<ul>
+								<li>
+									<span  data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+								</li>
+								<li>
+			                        <a href="#" ><i class="tf-ion-ios-heart"></i></a>
+								</li>
+								<li>
+									<a href="#!"><i class="tf-ion-android-cart"></i></a>
+								</li>
+							</ul>
+                      	</div>
+					</div>
+					<div class="product-content">
+						<h4><a href="product-single.html">Cardigan Cogumelos</a></h4>
+						<p class="price">R$149,90</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="product-item">
+					<div class="product-thumb">
+						<img class="img-responsive" src="images/product-4.jpg" alt="product-img" />
+						<div class="preview-meta">
+							<ul>
+								<li>
+									<span  data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+								</li>
+								<li>
+			                        <a href="#" ><i class="tf-ion-ios-heart"></i></a>
+								</li>
+								<li>
+									<a href="#!"><i class="tf-ion-android-cart"></i></a>
+								</li>
+							</ul>
+                      	</div>
+					</div>
+					<div class="product-content">
+						<h4><a href="product-single.html">Calça Wide Leg</a></h4>
+						<p class="price">R$179,90</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="product-item">
+					<div class="product-thumb">
+						<img class="img-responsive" src="images/product-5.jpg" alt="product-img" />
+						<div class="preview-meta">
+							<ul>
+								<li>
+									<span  data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+								</li>
+								<li>
+			                        <a href="#" ><i class="tf-ion-ios-heart"></i></a>
+								</li>
+								<li>
+									<a href="#!"><i class="tf-ion-android-cart"></i></a>
+								</li>
+							</ul>
+              </div>
+					</div>
+					<div class="product-content">
+						<h4><a href="product-single.html">Vestido Oncinha</a></h4>
+						<p class="price">R$299,90</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="product-item">
+					<div class="product-thumb">
+						<img class="img-responsive" src="images/product-6.jpg" alt="product-img" />
+						<div class="preview-meta">
+							<ul>
+								<li>
+									<span  data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+								</li>
+								<li>
+			                        <a href="#" ><i class="tf-ion-ios-heart"></i></a>
+								</li>
+								<li>
+									<a href="#!"><i class="tf-ion-android-cart"></i></a>
+								</li>
+							</ul>
+                      	</div>
+					</div>
+					<div class="product-content">
+						<h4><a href="product-single.html">Mini Saia</a></h4>
+						<p class="price">R$99,90</p>
+					</div>
+				</div>
+			</div>
+			
+				</div>
+			</div>
+		
+		<!-- Modal -->
+		<div class="modal product-modal fade" id="product-modal">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<i class="tf-ion-close"></i>
+			</button>
+		  	<div class="modal-dialog " role="document">
+		    	<div class="modal-content">
+			      	<div class="modal-body">
+			        	<div class="row">
+			        		<div class="col-md-8 col-sm-6 col-xs-12">
+			        			<div class="modal-image">
+				        			<img  height="80px" class="img-responsive" src="images/vestido.1.jpeg" alt="product-img" />
+			        			</div>
+			        		</div>
+			        		<div class="col-md-4 col-sm-6 col-xs-12">
+			        			<div class="product-short-details">
+			        				<h2 class="product-title">Vestido Floral</h2>
+			        				<p class="product-price">R$ 200</p>
+			        				<p class="product-short-description">
+			        					Vestido floral modelo curto confeccionado em tecido molinho e com estampa floral. 
+												Modelagem acinturada com decote profundo em V e manguinhas bufantes.
+			        				</p>
+			        				<a href="cart.html" class="btn btn-main">Adicone ao Carrinho</a>
+			        				<a href="product-single.html" class="btn btn-transparent">Ver Detalhes</a>
+			        			</div>
+											</div>
+			        		</div>
+			        	</div>
+			        </div>
+		    	</div>
+		</div><!-- /.modal -->
+
+		</div>
+	</div>
+</section>
+
+<!--Start Call To Action
+==================================== -->
+<section class="call-to-action bg-gray section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<div class="title">
+					<h2>NEWSLETTER</h2>
+					<p>Doses semanais de moda, beleza, cultura e lifestyle em seu e-mail, além de todas as novidades, ofertas e lançamentos.</p>
+				</div>
+				<div class="col-lg-6 col-md-offset-3">
+				    <div class="input-group subscription-form">
+				      <input type="text" class="form-control" placeholder="Digite seu e-mail">
+				      <span class="input-group-btn">
+				        <button class="btn btn-main" type="button">Cadastrar!</button>
+				      </span>
+				    </div><!-- /input-group -->
+			  </div><!-- /.col-lg-6 -->
+
+			</div>
+		</div> 		<!-- End row -->
+	</div>   	<!-- End container -->
+</section>   <!-- End section -->
+
+
+<section class="quem somos" id="about" >
+	<div class="container">
+		<div class="row">
+			<div class="title">
+				<h2>Nosso time!</h2>
+				<div>
+					<p>A Mood Store  é uma marca digital fundada pela Gio ferreira.<br> 
+						Somos uma loja online de moda bem diferentona de tudo que você já viu.</p>
+				</div>
+				<img class="img-time" src="./images/team-1.jpg" alt="time-img" />
+				<img class="img-time" src="./images/team-2.jpg" alt="time-img" />
+				<img class="img-time" src="./images/team-3.jpg" alt="time-img" />
+			</div>
+		</div>	
+		</section>
+			
+<footer class="footer section text-center">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-12">
+				<ul class="social-media">
+					<li>
+						<a href="https://www.facebook.com">
+							<i class="tf-ion-social-facebook"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com">
+							<i class="tf-ion-social-instagram"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.twitter.com">
+							<i class="tf-ion-social-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.pinterest.com">
+							<i class="tf-ion-social-pinterest"></i>
+						</a>
+					</li>
+				</ul>
+				<ul class="footer-menu text-uppercase">
+					<li>
+						<a href="">SHOP</a>
+					</li>
+					<li>
+						<a href="">NOSSO TIME</a>
+					</li>
+					<li>
+						<a href="">PRIVACIDADE</a>
+					</li>
+				</ul><br>
+
+					<ul class="contact-short-info" id="contact" >
+						<li>
+							<i class="tf-ion-ios-home"></i>
+							<span>Av. Paulista, 1230 - Bela Vista, São Paulo - SP, 01310-100</span>
+						</li>
+						<li>
+							<i class="tf-ion-android-phone-portrait"></i>
+							<span>Phone: 11-98182-1000</span>
+						</li>
+						<li>
+							<i class="tf-ion-android-mail"></i>
+							<span>Email: hello@moodstore.com</span>
+						</li>
+					</ul>
+				<p class="copyright-text">Mood Store &copy;2022.Todos os direitos reservados.</p>
+			</div>
+		</div>
+	</div>
+</footer>
+    <!-- 
+    Essential Scripts
+    =====================================-->
+    
+    <!-- Main jQuery -->
+    <script src="plugins/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap 3.1 -->
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Bootstrap Touchpin -->
+    <script src="plugins/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
+    <!-- Count Down Js -->
+    <script src="plugins/syo-timer/build/jquery.syotimer.min.js"></script>
+    <!-- slick Carousel -->
+    <script src="plugins/slick/slick.min.js"></script>
+    <script src="plugins/slick/slick-animation.min.js"></script>
+
+    <!-- Main Js File -->
+    <script src="./script.js"></script>
+		    
+  </body>
+  </html>
